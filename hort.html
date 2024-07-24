@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Heads or Tails
+    </h1>
+
+    <button onclick="
+    let randomNumber = Math.random();
+    let res;
+    if(randomNumber >= 0 && randomNumber < 1/3)
+    {
+        res = 'Head';
+    }
+    else if(randomNumber >=1/3 && randomNumber < 2/3){
+        res = 'Tail';
+    }
+    alert(`You Called Heads and it is ${res}`);
+    ">
+    
+        Head
+    </button>
+
+    <button onclick="
+    let randomNumber = Math.random();
+    let res;
+    if(randomNumber >= 0 && randomNumber < 1/3)
+    {
+        res = 'Head';
+    }
+    else if(randomNumber >=1/3 && randomNumber < 2/3)
+    {
+        res = 'Tail';
+    }
+    alert(`You Called Tails and it is ${res}`);
+    ">
+        Tail
+    </button>
+</body>
+</html>
